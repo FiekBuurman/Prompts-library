@@ -1,43 +1,87 @@
-## Prompt
+# Home Network Router/Gateway Selection
 
-```
-CONTEXT:
-I'm a senior C# developer working on a legacy ASP.NET Web Site (not Web Application) on .NET Framework 4.8.
-All underlying referenced projects have been migrated to SDK-style project files.
+## Context
+I'm a homelab enthusiast who actively tinkers with:
+- Synology NAS systems (specify models if relevant)
+- Proxmox server (HP machine with i5-7700, 32GB RAM, running 20+ VMs/containers)
+- Current technical skill level: comfortable with networking basics, Linux CLI, Docker, Debian
 
-CURRENT SITUATION:
-When building the website, I'm getting "Could not get dependencies for project reference" errors for all SDK-style project references.
+## Current Situation
 
-GOAL:
-Migrate the legacy ASP.NET Web Site to a more modern framework/architecture.
+**ISP & Connection:**
+- Currently: Ziggo cable (400Mbps)
+- Future: Planning to switch to KPN fiber (1Gbps)
+- Using ISP-provided router for DHCP and DNS
 
-REQUIREMENTS:
-- Recommend a target framework that is:
-  * Future-proof with long-term support
-  * Minimizes breaking changes from .NET Framework 4.8
-  * Has a clear migration path
-- Provide a step-by-step migration plan with:
-  * Risk assessment for each step
-  * Estimated effort level (low/medium/high)
-  * Order of operations (what to do first)
-- Evaluate whether an intermediate solution (like a bridge/facade project) would be beneficial as a stepping stone
+**Current Network Setup:**
+- Number of devices: 15+ wired, 10+ wireless
+- Key services running: Jellyfin, Home Assistant, Pi-hole, Passbolt, Zigbee2Mqtt
+- VLANs: None currently / Planning to segment IoT devices
+- Optional: Remote access to homelab / Site-to-site 
 
-SPECIFIC QUESTIONS:
-1. Should I migrate to .NET 6/8/9, or stay on .NET Framework 4.8 but convert to Web Application project?
-2. What are the major breaking changes I should anticipate?
-3. Can I migrate incrementally, or does it need to be all-at-once?
-4. How should I handle ASP.NET-specific features (Web Forms, HttpContext, etc.)?
+**Pain Points:**
+- Vendor lock-in with ISP router configurations
+- Limited control over DNS/DHCP settings
+- Concern about reconfiguring everything when switching ISPs
 
-CONSTRAINTS:
-- If you're uncertain about something, clearly state it and explain your reasoning
-- Prioritize practical, proven solutions over experimental approaches
-- Consider that this is production code with active users
+## Goal
+Create an ISP-agnostic network setup that:
+1. Survives ISP changes without major reconfiguration
+2. Gives me full control over DHCP, DNS, and routing
+3. Supports future homelab expansion (more VLANs, VPN, etc.)
 
-OUTPUT FORMAT:
-1. Recommended migration path (with rationale)
-2. Step-by-step plan
-3. Assessment of intermediate solutions
-4. Potential gotchas and how to handle them
-5. Resources/documentation I should reference
+## Requirements
 
-```
+**Must Have:**
+- Separate modem/ONT and router functions
+- Gigabit WAN port
+- Multiple gigabit LAN ports OR SFP+ for future expansion
+- VLAN support
+- VPN server capability (WireGuard/OpenVPN)
+- Stable firmware with regular updates
+- Low power consumption (<15W idle)
+
+**Nice to Have:**
+- PoE ports for future APs or cameras
+- 2.5GbE or 10GbE LAN for NAS connectivity
+- Hardware offloading for VPN
+- Local management (no forced cloud)
+- Active community support
+
+**Technical Preferences:**
+- Willing to learn: OpenWrt, pfSense, OPNsense, Ubiquiti UniFi
+- NOT willing to: Manage complex CLI-only setups daily
+
+## Specific Questions
+
+1. **Ubiquiti Cloud Gateway Ultra evaluation:**
+   - Is the UCG-Ultra appropriate for my use case?
+   - How does it handle ISP changes (PPPoE for KPN fiber)?
+   - Are there better alternatives in the same price range?
+   - Concerns about UniFi's cloud dependency vs local management
+
+2. **ISP transition strategy:**
+   - What configuration should I document before switching?
+   - Should I keep the KPN modem in bridge mode?
+   - Any gotchas with KPN fiber + third-party routers?
+
+3. **Alternative solutions:**
+   - Should I consider running pfSense/OPNsense on dedicated hardware?
+   - Would a Mikrotik device be better value? (e.g., RB5009)
+   - Mini PC + OPNsense vs purpose-built router?
+
+4. **Future expansion:**
+   - If I add UniFi APs later, does UCG-Ultra make more sense?
+   - Best way to add VLANs for IoT isolation?
+   - Recommendations for managed switch to pair with router?
+
+## Constraints
+- Noise tolerance, it all run in the living area, so it's need to be silent.
+
+## Output Format
+Please provide:
+1. **Direct answer** to UCG-Ultra suitability (yes/no with reasoning)
+2. **3 alternative options** with pros/cons comparison table
+3. **ISP migration checklist** for smooth transition
+4. **Recommended network topology** diagram or description
+5. **Estimated total cost** including any necessary switches/APs
