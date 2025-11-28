@@ -1,5 +1,5 @@
 # Home Network Router/Gateway Selection
-
+```
 ## Context
 I'm a homelab enthusiast who actively tinkers with:
 - Synology NAS systems (specify models if relevant)
@@ -85,3 +85,5 @@ Please provide:
 3. **ISP migration checklist** for smooth transition
 4. **Recommended network topology** diagram or description
 5. **Estimated total cost** including any necessary switches/APs
+
+```
