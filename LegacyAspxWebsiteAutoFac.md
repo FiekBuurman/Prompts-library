@@ -1,3 +1,4 @@
+```
 CONTEXT:
 I'm a senior C# developer working on a legacy ASP.NET Web Site (not Web Application) on .NET Framework 4.8.
 All underlying referenced projects have been migrated to SDK-style project files.
@@ -31,3 +32,4 @@ CONSTRAINTS:
 - If you're uncertain about something, clearly state it and explain your reasoning
 - Prioritize practical, proven solutions over experimental approaches
 - Consider that this is production code with active users
+```
