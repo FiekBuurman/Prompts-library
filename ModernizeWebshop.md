@@ -7,6 +7,7 @@ I'm a senior C# developer working on a legacy ASP.NET Web Site (not Web Applicat
 CURRENT SITUATION:
 All underlying referenced projects have been migrated to SDK-style project files.
 All classes in App_Code are moved to other underlying projects.
+The legay website project is now a Web Application, and all pages and controls do have designer files.
 
 GOAL:
 Migrate the legacy ASP.NET Web Site to a more modern framework/architecture.
@@ -23,10 +24,7 @@ REQUIREMENTS:
 - Evaluate whether an intermediate solution (like a bridge/facade project) would be beneficial as a stepping stone
 
 SPECIFIC QUESTIONS:
-1. Should I migrate to .NET 6/8/9, or stay on .NET Framework 4.8 but convert to Web Application project?
-2. What are the major breaking changes I should anticipate?
-3. Can I migrate incrementally, or does it need to be all-at-once?
-4. How should I handle ASP.NET-specific features (Web Forms, HttpContext, etc.)?
+1.What would be the next steps? 
 
 CONSTRAINTS:
 - If you're uncertain about something, clearly state it and explain your reasoning
