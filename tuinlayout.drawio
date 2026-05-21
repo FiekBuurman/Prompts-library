@@ -7,13 +7,13 @@
         <mxCell id="yM9jW3GAW1ZMK87SmaJA-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
           <mxGeometry height="360" width="480" x="160" y="80" as="geometry" />
         </mxCell>
-        <mxCell id="yM9jW3GAW1ZMK87SmaJA-2" parent="1" style="whiteSpace=wrap;html=1;" value="" vertex="1">
+        <mxCell id="yM9jW3GAW1ZMK87SmaJA-2" parent="1" style="whiteSpace=wrap;html=1;fillColor=#60a917;fontColor=#ffffff;strokeColor=#2D7600;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" value="Tuin" vertex="1">
           <mxGeometry height="530" width="160" x="480" y="440" as="geometry" />
         </mxCell>
-        <mxCell id="yM9jW3GAW1ZMK87SmaJA-4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
+        <mxCell id="yM9jW3GAW1ZMK87SmaJA-4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f0a30a;fontColor=#000000;strokeColor=#BD7000;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" value="Schuur" vertex="1">
           <mxGeometry height="260" width="140" x="160" y="740" as="geometry" />
         </mxCell>
-        <mxCell id="yM9jW3GAW1ZMK87SmaJA-5" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
+        <mxCell id="yM9jW3GAW1ZMK87SmaJA-5" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#60a917;fontColor=#ffffff;strokeColor=#2D7600;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" value="Bak" vertex="1">
           <mxGeometry height="550" width="70" x="160" y="190" as="geometry" />
         </mxCell>
         <mxCell id="yM9jW3GAW1ZMK87SmaJA-6" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
