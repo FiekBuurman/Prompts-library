@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net">
   <diagram name="Page-1" id="o-0tdXMlROqrJ6z3eSWm">
-    <mxGraphModel dx="1233" dy="722" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2206" dy="1023" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1699,9 +1699,6 @@
         <mxCell id="yM9jW3GAW1ZMK87SmaJA-626" parent="1" style="rounded=0;whiteSpace=wrap;html=1;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" value="" vertex="1">
           <mxGeometry height="360" width="480" x="2920" y="80" as="geometry" />
         </mxCell>
-        <mxCell id="yM9jW3GAW1ZMK87SmaJA-627" parent="1" style="whiteSpace=wrap;html=1;fillColor=#60a917;fontColor=#ffffff;strokeColor=#2D7600;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" value="Tuin" vertex="1">
-          <mxGeometry height="510" width="160" x="3240" y="460" as="geometry" />
-        </mxCell>
         <mxCell id="yM9jW3GAW1ZMK87SmaJA-628" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f0a30a;fontColor=#000000;strokeColor=#BD7000;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" value="Schuur" vertex="1">
           <mxGeometry height="260" width="140" x="2920" y="740" as="geometry" />
         </mxCell>
@@ -1985,16 +1982,19 @@
           <mxGeometry height="10" width="10" x="2990" y="730" as="geometry" />
         </mxCell>
         <mxCell id="yM9jW3GAW1ZMK87SmaJA-722" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#647687;strokeColor=#314354;fontColor=#ffffff;" value="" vertex="1">
-          <mxGeometry height="30" width="60" x="3300" y="430" as="geometry" />
+          <mxGeometry height="60" width="60" x="3300" y="430" as="geometry" />
         </mxCell>
         <mxCell id="yM9jW3GAW1ZMK87SmaJA-723" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#647687;strokeColor=#314354;fontColor=#ffffff;" value="" vertex="1">
-          <mxGeometry height="30" width="60" x="3240" y="430" as="geometry" />
+          <mxGeometry height="60" width="60" x="3240" y="430" as="geometry" />
         </mxCell>
         <mxCell id="yM9jW3GAW1ZMK87SmaJA-724" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#647687;strokeColor=#314354;fontColor=#ffffff;" value="" vertex="1">
-          <mxGeometry height="30" width="40" x="3360" y="430" as="geometry" />
+          <mxGeometry height="60" width="40" x="3360" y="430" as="geometry" />
         </mxCell>
         <mxCell id="yM9jW3GAW1ZMK87SmaJA-725" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#647687;strokeColor=#314354;fontColor=#ffffff;" value="" vertex="1">
           <mxGeometry height="60" width="60" x="3180" y="250" as="geometry" />
+        </mxCell>
+        <mxCell id="yM9jW3GAW1ZMK87SmaJA-627" parent="1" style="whiteSpace=wrap;html=1;fillColor=#60a917;fontColor=#ffffff;strokeColor=#2D7600;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" value="Tuin" vertex="1">
+          <mxGeometry height="480" width="160" x="3240" y="490" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
