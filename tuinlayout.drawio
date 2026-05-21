@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net">
   <diagram name="Page-1" id="o-0tdXMlROqrJ6z3eSWm">
-    <mxGraphModel dx="1986" dy="1019" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1995" dy="1019" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1453,9 +1453,6 @@
         <mxCell id="yM9jW3GAW1ZMK87SmaJA-532" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#647687;strokeColor=#314354;fontColor=#ffffff;" value="" vertex="1">
           <mxGeometry height="60" width="60" x="2620" y="310" as="geometry" />
         </mxCell>
-        <mxCell id="yM9jW3GAW1ZMK87SmaJA-533" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#647687;strokeColor=#314354;fontColor=#ffffff;" value="" vertex="1">
-          <mxGeometry height="60" width="60" x="2620" y="250" as="geometry" />
-        </mxCell>
         <mxCell id="yM9jW3GAW1ZMK87SmaJA-534" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#647687;strokeColor=#314354;fontColor=#ffffff;" value="" vertex="1">
           <mxGeometry height="60" width="60" x="2620" y="190" as="geometry" />
         </mxCell>
@@ -1701,6 +1698,15 @@
         </mxCell>
         <mxCell id="yM9jW3GAW1ZMK87SmaJA-620" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#647687;strokeColor=#314354;fontColor=#ffffff;" value="" vertex="1">
           <mxGeometry height="10" width="40" x="2800" y="430" as="geometry" />
+        </mxCell>
+        <mxCell id="yM9jW3GAW1ZMK87SmaJA-624" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#647687;strokeColor=#314354;fontColor=#ffffff;" value="" vertex="1">
+          <mxGeometry height="60" width="60" x="2620" y="250" as="geometry" />
+        </mxCell>
+        <mxCell id="yM9jW3GAW1ZMK87SmaJA-623" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#000000;strokeColor=none;fontColor=#ffffff;shape=mxgraph.signs.transportation.motorcycle;pointerEvents=1;verticalLabelPosition=bottom;verticalAlign=top;rotation=93;" value="" vertex="1">
+          <mxGeometry height="74.92" width="170" x="2589.9972186525565" y="212.54401537499947" as="geometry" />
+        </mxCell>
+        <mxCell id="yM9jW3GAW1ZMK87SmaJA-625" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#000000;strokeColor=none;fontColor=#ffffff;shape=mxgraph.signs.transportation.motorcycle;pointerEvents=1;verticalLabelPosition=bottom;verticalAlign=top;rotation=93;" value="" vertex="1">
+          <mxGeometry height="74.92" width="170" x="2689.9972186525565" y="212.54401537499942" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
